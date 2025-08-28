@@ -78,6 +78,7 @@ if TYPE_CHECKING:
     from .linear import *
     from .lm_head import *
     from .mlp import *
+    from .moe import *
     from .norm import *
 else:
     sys.modules[__name__] = _LazyModule(
